@@ -1,12 +1,12 @@
 #{ 
-	BOOK: Introduction to Probability By Charles M Grinstead and J Laurie Snell
+	BOOK: 		Introduction to Probability By Charles M Grinstead and J Laurie Snell
 	CHAPTER: 	1 (Discrete Probability Distributions)
 	AUTHOR: 	Victor Mutai (muvic08@gmail.com, https://github.com/muvic08)
 
-	DESCRIPTION: 
+	DESCRIPTION:
 		This program simulates n tosses of a fair coin, and prints the proportion of tosses
-        that come up heads.  If print = True,  then the outcomes of the tosses (H/T) are
-        also printed.
+		that come up heads.  If print = True,  then the outcomes of the tosses (H/T) are
+		also printed.
 #} 
 
 
