@@ -8,7 +8,7 @@
 		of games of four rolls of a die.
 #}
 
-function [sixes, n] = deMere1(n, print)
+function [sixes, n] = DeMere1(n, print)
 	sixes = 0;
 
 	for i = 1:n
@@ -40,6 +40,6 @@ end
 #{ 
 	Sample Run: 
 		ENVIRONMENT:		Octave _or Matlab	
-		COMMAND:		[sixes, n] = deMere1(10000, true)
+		COMMAND:		[sixes, n] = DeMere1(10000, true)
 		RESULTS:		Sixes/n = 5168/10000 = 0.5168
 #}
