@@ -5,7 +5,7 @@
 
 	DESCRIPTION:
 		Computes the proportion of times that a six appears in a given number 
-		of games of four rolls of a die.
+		of games of four rolls of a die. if print = True, then the rolls are printed out.
 #}
 
 function [sixes, n] = DeMere1(n, print)
@@ -16,6 +16,9 @@ function [sixes, n] = DeMere1(n, print)
 		do 
 			roll = ceil(rand*6);
 			rolls++;
+			if (print == true) 
+				printf(mat2str(roll));
+			endif
 		until ((roll == 6) || (rolls == 4))
 
 		if (roll == 6) 
@@ -23,16 +26,14 @@ function [sixes, n] = DeMere1(n, print)
 		endif
 	end 
 
-	if (print == true) 
-		printf("\n");
-		printf("Sixes/n = ");
-		printf(mat2str(sixes));
-		printf("/"); 
-		printf(mat2str(n));
-		printf(" = ");
-		printf(mat2str(sixes/n));
-		printf("\n");
-	endif
+	printf("\n");
+	printf("Sixes/n = ");
+	printf(mat2str(sixes));
+	printf("/"); 
+	printf(mat2str(n));
+	printf(" = ");
+	printf(mat2str(sixes/n));
+	printf("\n");
 end
 
 #{ 
