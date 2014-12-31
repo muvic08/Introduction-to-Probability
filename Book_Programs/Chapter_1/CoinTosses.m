@@ -42,7 +42,7 @@ end
 
 #{ 
 	Sample Run: 
-		ENVIRONMENT:	Octave _or Matlab	
+		ENVIRONMENT:		Octave _or Matlab	
 		COMMAND:		CoinTosses(30, true)
 		RESULTS:		TTTHHHTHTHHTHTHTTTHTTHHHHHTTTT
 						H/T = 14/16
