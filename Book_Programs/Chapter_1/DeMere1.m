@@ -3,7 +3,7 @@
 	CHAPTER: 	1 (Discrete Probability Distributions)
 	AUTHOR: 	Victor Mutai (muvic08@gmail.com, https://github.com/muvic08)
 
-	DESCRIPTION:
+	SYNOPSIS:
 		Computes the proportion of times that a six appears in a given number 
 		of games of four rolls of a die. if print = True, then the rolls are printed out.
 #}
