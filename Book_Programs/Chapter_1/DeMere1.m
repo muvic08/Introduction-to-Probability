@@ -12,16 +12,15 @@ function [sixes, n] = DeMere1(n, print)
 	sixes = 0;
 
 	for i = 1:n
-
 		rolls = 0;
 		do 
 			roll = ceil(rand*6);
 			rolls++;
 		until ((roll == 6) || (rolls == 4))
+
 		if (roll == 6) 
 			sixes++;
 		endif
-		
 	end 
 
 	if (print == true) 
@@ -34,7 +33,6 @@ function [sixes, n] = DeMere1(n, print)
 		printf(mat2str(sixes/n));
 		printf("\n");
 	endif
-
 end
 
 #{ 
