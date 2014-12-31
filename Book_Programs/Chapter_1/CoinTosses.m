@@ -13,27 +13,32 @@
 %% Initialization
 clear ; close all; clc
 
-n = 20;
-probability = 1/2;
-headcounter = 0;
-tailcounter = 0;
+function [] = tossCoin(n, print)
+	probability = 1/2;
+	headcounter = 0;
+	tailcounter = 0;
 
-for toss = 1:n
-	r = rand > probability;
-	if (r) 
-		disp("H");
-		headcounter++;
-	else 
-		disp("T");
-		tailcounter++;
+	for toss = 1:n
+		r = rand > probability;
+		if (r) 
+			printf("H");
+			headcounter++;
+		else 
+			printf("T");
+			tailcounter++;
+		endif
+	end
+
+	%% Print Head to Tails ratio _if print is True
+	printf("\n");
+
+	if (print == true) 
+		printf("\n");
+		printf("H/T = ");
+		printf(mat2str(headcounter));
+		printf("/"); 
+		printf(mat2str(tailcounter));
+		disp("");
 	endif
+
 end
-
-%% Print Head to Tails ratio.
-
-printf("\n");
-printf("H/T = ");
-printf(mat2str(headcounter));
-printf("/"); 
-printf(mat2str(tailcounter));
-disp("");
