@@ -7,13 +7,9 @@
 		This program simulates n tosses of a fair coin, and prints the proportion of tosses
 		that come up heads.  If print = True,  then the outcomes of the tosses (H/T) are
 		also printed.
-#} 
+#}
 
-
-%% Initialization
-clear ; close all; clc
-
-function [] = tossCoin(n, print)
+function [] = CoinTosses(n, print)
 	probability = 1/2;
 	headcounter = 0;
 	tailcounter = 0;
@@ -42,3 +38,12 @@ function [] = tossCoin(n, print)
 	endif
 
 end
+
+
+#{ 
+	Sample Run: 
+		ENVIRONMENT: 	Octave _or Matlab	
+		COMMAND: 		CoinTosses(30, true)
+		RESULTS: 		TTTHHHTHTHHTHTHTTTHTTHHHHHTTTT
+						H/T = 14/16
+#}
