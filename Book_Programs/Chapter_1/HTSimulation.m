@@ -15,7 +15,7 @@
 		is displayed.  If print = True and n > 1, then spike graphs of the winningslist
 		and timesinleadlist are displayed. 
 
-	STATUS: 	Incomplete.
+	STATUS: Incomplete.
 #}
 
 function [] = HTSimulation(n, m, print)
