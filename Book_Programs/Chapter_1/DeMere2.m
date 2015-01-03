@@ -44,6 +44,6 @@ end
 #{ 
 	Sample Run: 
 		ENVIRONMENT:		Octave _or Matlab	
-		COMMAND:		DeMere2(1000, 25, false)
-		RESULTS:		success/n = 501/1000 = 0.501
+		COMMAND:		DeMere2(10000, 24, false)
+		RESULTS:		success/n = 4897/10000 = 0.4897 
 #}
