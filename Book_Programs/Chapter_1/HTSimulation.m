@@ -37,6 +37,17 @@ function [] = HTSimulation(n, m, print)
 		sumTimesInLead += timesinleadlist;
 		sumWinningSum += winnings;
 
+		printf(mat2str(timesinleadlist));
+		printf(", ");
+		printf(mat2str(winnings));
+		plot(winningsums);
+		hold on;
+		g = zeros(size(winningsums));
+		plot(g, "r");
+		hold off;
+		printf("\n");
+		
+
 	endfor
 
 	printf(mat2str(sumTimesInLead/n));
