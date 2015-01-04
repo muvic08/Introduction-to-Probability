@@ -6,12 +6,11 @@
 	SYNOPSIS: 
 		This program estimates  the area under the input function fn and above the
 		interval [xmin, xmax] by choosing n random points in the rectangle above the
-        interval [xmin, xmax] and between the y-values 0 and ymax.  The function f[x] is
-        assumed to be non-negative on the interval [xmin, xmax], and is assumed to
-        have a maximum value which does not exceed ymax.   (Note: it is not necessary
-        that the maximum value of f[x] = ymax.)  The program returns its area estimate,
-         and also plots the random points and the function f[x] on the interval  [xmin,
-         xmax].  
+		interval [xmin, xmax] and between the y-values 0 and ymax.  The function f[x] is
+		assumed to be non-negative on the interval [xmin, xmax], and is assumed to
+		have a maximum value which does not exceed ymax.   (Note: it is not necessary
+		that the maximum value of f[x] = ymax.)  The program returns its area estimate,
+		and also plots the random points and the function f[x] on the interval  [xmin, xmax].  
 
 #}
 
