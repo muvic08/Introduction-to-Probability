@@ -1,6 +1,6 @@
 #{ 
 	BOOK: 		Introduction to Probability By Charles M Grinstead and J Laurie Snell
-	CHAPTER: 	2 (Discrete Probability Distributions)
+	CHAPTER: 	2 (Continuous Probability Densities) ~ Example 2.2
 	AUTHOR: 	Victor Mutai (muvic08@gmail.com, https://github.com/muvic08)
 
 	SYNOPSIS: 
