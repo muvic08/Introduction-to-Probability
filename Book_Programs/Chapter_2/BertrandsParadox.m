@@ -43,8 +43,8 @@ function [sim1sln, sim2sln, sim3sln] = BertrandsParadox(n)
 end
 
 #{ 
-	Sample Run: 
-		ENVIRONMENT:		Octave _or Matlab	
+	Sample Run:
+		ENVIRONMENT:		Octave or Matlab	
 		COMMAND:		[s1, s2, s3] = BertrandsParadox(1000)
 		RESULTS:		s1 =  0.25200
 						s2 =  0.48100
