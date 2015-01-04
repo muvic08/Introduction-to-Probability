@@ -10,9 +10,6 @@
 
 function [] = Areabargraph(n, m)
 	pairsMatrix = rand(n, m);
-	%%a = pairsMatrix(:, 1);
-	%%b = pairsMatrix(:, 2);
-
 	sln = sum(pairsMatrix'); 				%% '
 	hist(sln, (n/(0.01*n)));
 end
